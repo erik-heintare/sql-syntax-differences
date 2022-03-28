@@ -1,5 +1,5 @@
-# SQL Syntax differences
-List of differences between different SQL syntaxes like (Redshift, BigQuery, Presto, etc.)
+# SQL syntax differences
+List of differences between different database SQL syntaxes like (Redshift, BigQuery, Presto, etc.)
 
 ## Date functions
 
