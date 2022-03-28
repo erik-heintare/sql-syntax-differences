@@ -6,11 +6,17 @@ List of differences between different SQL syntaxes like (Redshift, BigQuery, Pre
 Epoch to timestamp
 
 ``` sql 
+-- BigQuery
+TIMESTAMP_SECONDS(field)
+
 -- Presto 
 from_unixtime(field) 
 
 -- Redshift
 timestamp 'epoch' + field * interval '1 second' 
+
+-- Snowflake
+to_timestamp(field)
 ``` 
 
 Convert timezone
